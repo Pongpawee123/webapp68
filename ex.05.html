@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container {               
+        max-width: 1200px;
+        height: 180px;
+        margin: 24px;
+        border: 2px solid #a7a7a7;
+        border-radius: 10px;
+        overflow-y: auto;
+        padding: 15px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: 160px;
+        border-radius: 12px;
+  }
+  </style>
+</head>
+<body>
+    <div class="container">
+    <div class="grid">
+      <img src="images/banana.jpeg">
+      <img src="images/durian.jpg">
+      <img src="images/pinepaple.jpg">
+      <img src="images/watermalon.jpeg">
+      <img src="images/orange.jpg">
+      <img src="images/papaya.webp">
+      <img src="images/rambutan.jpg">
+      <img src="images/mango.jpg">
+    </div>
+  </div>
+</body>
+</html>

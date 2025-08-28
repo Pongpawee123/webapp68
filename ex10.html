@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 50px 0px 0px 50px;
+        display: flex;
+     
+        }
+     
+        .polka {
+          width: 300px;
+          height: 300px;
+          border: 2px solid #ccc;
+     
+          background-color: #d9d9d9;
+          background-image:
+            radial-gradient(circle, black 12%, transparent 13%),
+            radial-gradient(circle, crimson 12%, transparent 13%);
+          background-size: 50px 50px;
+          background-position: 0 0, 25px 25px;
+        }
+     
+        .overflow {
+          overflow: auto;
+          border: 2px solid grey;
+          padding: 10px;
+          height: 120px;
+          width: 1100px;
+        }
+      </style>
+</head>
+<body>
+    <div class="overflow">
+        <div class="polka"></div>
+    </div>
+</div>
+</body>
+</html>
